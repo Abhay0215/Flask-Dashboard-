@@ -1,0 +1,56 @@
+/* 🔹 Dashboard Container */
+.dashboard-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Dashboard Title */
+.dashboard-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* 🔹 Filters Section */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background: white;
+    font-size: 14px;
+}
+
+/* 🔹 Charts Grid */
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* 🔹 Individual Chart Box */
+.chart-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+    .charts-container {
+        grid-template-columns: 1fr;
+    }
+}
